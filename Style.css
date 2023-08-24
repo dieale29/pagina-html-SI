@@ -1,0 +1,175 @@
+body {
+  padding-left: 15em;
+  font-family: Georgia, Arial,
+        Times, serif;
+  color: black;
+  background-color: #F4F6F6;
+  }
+ul.navbar {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  position: absolute;
+  top: 2em;
+  left: 1em;
+  width: 9em }
+h1 {
+  font-family: Helvetica, Geneva, Arial,
+        SunSans-Regular, sans-serif; color:#27AE60 }
+h1.frm {
+  font-family: "Segoe UI", Geneva, Arial,
+        SunSans-Regular, sans-serif; color:#27AE60 ;
+		text-align:center;height:25px
+}
+
+ul.navbar li {
+  background: #D6EAF8;
+  margin: 0.5em 0;
+  padding: 0.3em;
+  border-right: 1em solid #154360 ;
+  border-top: 0.1em solid black;
+  border-bottom: 0.1em solid black  
+  }
+ul.navbar a {
+  text-decoration: underline }
+a:link {
+  color: black }
+a:visited {
+  color: blue }
+address {
+  margin-top: 1em;
+  font-family:;
+  font-size: x-small;
+  font-style:italic;
+  padding-top: 1em;
+  border-top: thin dotted }
+p.dotted {border-style: dotted;}
+p.dashed {border-style: dashed;}
+
+.button {
+  border: none;
+  color: white;
+  padding: 10px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.button1 {
+  background-color: white;
+  color: black;
+  border: 2px solid #4CAF50;
+}
+
+.button1:hover {
+  background-color: #4CAF50;
+  color: white;
+}
+
+form {
+  margin: 0 auto;
+  padding: 1em;
+  border: 1px solid #CCC;
+  border-radius: 1em;
+  background-color: white;
+  color: black;
+}
+
+
+input.info{
+  width: 165px;	
+}
+
+
+ textarea {
+  font: 1em sans-serif;
+  /* Ancho */
+  width: 100%;
+  box-sizing: border-box;
+  vertical-align: top;
+  height: 3em;
+}
+
+input:focus, textarea:focus {
+  /* al recibir el enfoque se resalta el elemento input */
+   border-color: #000;
+   background-color: lightblue;
+}
+
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid lightgray; 
+}
+
+div.frmTitle {
+  display: flex;
+  border-radius: 8px;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid lightgray; 
+  background-color: white;
+}
+
+div.polaroid {
+  width: 20%;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 10px;
+  margin-left: 240px;
+}
+
+div.container {
+  text-align: center;
+  padding: 1px 2px;
+}
+
+td, th {
+  border: 1px solid black;
+  padding: 5px;
+}
+td{
+  background: white;
+  color:  black;
+}
+
+ th {
+  background: #D7DBDD ;
+  color: red;
+  border-radius: 10px;
+  top: 0;
+  padding: 5px;
+}
+
+div.container{
+	height:445vh;
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+	align-items:center;
+	
+}
+
+p{
+width:50%;	
+font-size:18;	
+	
+}
+
+h2{
+	color:#17A589
+	
+}
+
+
+h3{
+	color:#145A32 
+	
+}
+
